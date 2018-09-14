@@ -1,0 +1,179 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.first-section{
+	border-right: 1px solid #F0F0F0;
+	float:left;
+}
+.first-circle{
+	width: 12px;
+	height: 12px;
+	background: red;
+	border-radius: 6px;
+	float: left;
+	margin: 0px 5px 5px;
+}
+.designation{
+	padding: 20px 0px;
+}
+.menu-list{
+	color: grey;
+}
+ul{
+	padding: 15px 0px;
+	list-style:none;
+}
+ul li a{
+	background: white;
+	border: none;
+	padding: 10px 82px 10px 34px;
+	font-size: 16px;
+	text-decoration:none;
+	color:inherit;
+}
+ul li a:hover{
+	background: #836FFF ;
+	color: white;
+	border-radius: 10px;
+}
+.icons{
+	margin-right: 17px;
+	font-size: 20px;
+}
+.menu-list div{
+	display:none;
+}
+.menu-list div:target {
+    display: block;
+}
+.fa-toggle-on{
+	float:left;
+	font-size:25px;
+	color:#836FFF;
+	margin-right:20px;
+}
+.logoff{
+	padding-top: 229px;
+	color:grey
+}
+.second-section{
+	padding:0px;
+	float:left;
+	border-left: none;
+}
+.booking-1{
+   border: 1px solid #F0F0F0;
+   border-left: none;
+   border-right: none;
+   padding: 26px 20px;
+}
+.booking-1:hover{
+	background: #F0F0F0;
+}
+.booking-1 img{
+	width:41px;
+	height:41px; 
+	border-radius:5px;
+	float:left;
+	margin-right: 10px;
+}
+.third-section{
+	padding: 0px;
+	float:left;
+	border-left: 1px solid #F0F0F0;
+}
+.booking{
+	border-bottom: 1px solid #F0F0F0;
+	padding:32px;
+}
+.booking-details{
+	background: #F0F0F0;
+	padding:28px 18px 100px;
+}
+.notify{
+	padding: 18px;
+	border-radius: 5px;
+	background: #836FFF;
+	color: white;
+}
+.notify button{
+	background: white;
+	color: green ;
+	border: none;
+	padding:7px 14px;
+	float:right;
+    margin-right: 10px;
+    border-radius: 3px;
+	margin-top: -21px;
+	font-size: 12px;
+}
+.name{
+	background: white;
+	margin-top: 23px;
+    padding: 15px;
+}
+.contact-details{
+	padding: 28px 20px;
+	background: 	#F5F5F5;
+	color: grey;
+	border-radius: 5px;
+	box-shadow: 0px 4px #E8E8E8;
+}
+.room{
+	padding:32px 0px;
+}
+.room-details{
+    padding:26px 98px 16px 13px;
+	background: 	#F5F5F5;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 0px 4px #E8E8E8;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+.room button{
+	padding: 3px 5px;
+	background: #836FFF;
+	border-radius: 5px;
+	border:none;
+    color: white;
+	font-size:12px;
+}
+.email{
+	margin-top: 212px;
+}
+.email span{
+	background:white;
+	padding:18px 414px 18px 17px;
+	border-radius: 5px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background: #836FFF;
+    border-radius: 50%;
+    text-align: center;
+	font-size: 24px;
+	color: white;
+	float: left;
+}
+.mail{
+	margin-top: 30px;
+}
+.fa-cloud-upload-alt{
+	color: grey;
+	margin-left: -24px
+}
+.reply button{
+	padding: 20px 26px;
+    background: #836FFF;
+    border: none;
+    color: white;
+    margin-left: 21px;
+}
